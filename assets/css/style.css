@@ -7819,9 +7819,6 @@ img {
     transform: none;
     left: auto;
   }
-  .whatsapp-float {
-    bottom: 96px;
-  }
 }
 @media only screen and (max-width: 575.98px) {
   .hero {
@@ -16093,6 +16090,18 @@ img {
   }
   .hero + .about.sec-pb-pt {
     padding-top: 28px !important;
+  }
+  .whatsapp-float {
+    left: 12px !important;
+    right: auto !important;
+    bottom: max(20px, calc(env(safe-area-inset-bottom, 0px) + 20px)) !important;
+    width: 52px !important;
+    height: 52px !important;
+    z-index: 10050 !important;
+  }
+  .whatsapp-float i {
+    font-size: 26px !important;
+    line-height: 1 !important;
   }
 }
 
